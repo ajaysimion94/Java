@@ -1,4 +1,3 @@
-import java.util.*;
 import javax.swing.JOptionPane;
 class JavaGUI{
     public static void main(String[] args) {
