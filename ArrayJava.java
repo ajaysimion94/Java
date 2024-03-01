@@ -41,6 +41,38 @@ public class ArrayJava {
             }
             System.out.println("\n");
         }
+        System.out.println("\nJagged Array\n");
+        //jagged Array
+        int[][] jarr=new int[3][];
+        jarr[0]= new int[3];
+        jarr[1]=new int[40];
+        jarr[2]=new int[30];
+        for(int i=0; i<jarr.length;i++){
+            for(int j=0;j<jarr[i].length;j++){
+                jarr[i][j]=(int)(Math.random()*100);
+                // System.out.print(jarr[i][j] + " ");
+            }
+            // System.out.println("\n");
+        }
+        for(int i[]:jarr){
+            for(int j:i){
+                System.out.print(j + " ");
+            }
+            System.out.println("\n");
+        }
+        // 3D Array
+        System.out.println("\n3D Array\n");
+        int[][][] tarr3=new int[3][4][5];
+        for(int i=0; i<3;i++){
+            for(int j=0; j<4;j++){
+                for(int k=0;k<5;k++){
+                    tarr3[i][j][k]=(int)(Math.random()*100);
+                    System.out.print(tarr3[i][j][k] + " ");
+                }
+                System.out.println("\n");
+            }
+            System.out.println("\n");
+        }
     }
     
 }
