@@ -61,7 +61,7 @@ public class OOPs1 {
         System.out.println("\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n");
         int c=data.nextInt();
         chof.chooseops(c, x, y);
-
+        data.close();
     }
     
 }
