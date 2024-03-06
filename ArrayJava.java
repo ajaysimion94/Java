@@ -34,8 +34,8 @@ public class ArrayJava {
         System.out.println("\n");
         //Math.random()
         int[][] rnum=new int[3][3];
-        for(int i=0; i<3;i++){
-            for(int j=0; j<3;j++){
+        for(int i=0; i<rnum.length;i++){
+            for(int j=0; j<rnum[i].length;j++){
                 rnum[i][j]=(int)(Math.random()*100);
                 System.out.print(rnum[i][j] + " ");
             }
